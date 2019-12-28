@@ -14,7 +14,7 @@ export default new Router({
     },
     {
       path: '/login',
-      name: '登录',
+      name: '侧柱状图',
       component: resolve => {
         require(['./views/login.vue'], resolve)
       }  
