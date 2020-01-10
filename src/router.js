@@ -47,5 +47,12 @@ export default new Router({
         require(['./views/viewone/components/map.vue'], resolve)
       }  
     },
+    {
+      path: '/canvas1',
+      name: '绘图',
+      component: resolve => {
+        require(['./views/viewone/components/canvas1.vue'], resolve)
+      }  
+    },
   ]
 })
