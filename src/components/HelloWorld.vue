@@ -79,7 +79,7 @@ export default {
       }else{
         this.dataList = ['80','88','88','80']
       } 
-      // this.chartInit();   
+      this.chartInit();   
     },  
   },
   mounted(){
