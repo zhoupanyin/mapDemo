@@ -7,6 +7,13 @@ import router from './router'
 // import echarts from 'echarts'
 // Vue.prototype.$echarts = echarts;
 
+//引入iview框架
+import iview from 'iview'
+import 'iview/dist/styles/iview.css'
+Vue.use(iview)
+
+import directives from '../directive/directives.js'
+directives(Vue)
 //引入axios
 import axios from 'axios'
 import Qs from 'qs'

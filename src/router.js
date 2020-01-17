@@ -54,5 +54,12 @@ export default new Router({
         require(['./views/viewone/components/canvas1.vue'], resolve)
       }  
     },
+    {
+      path: '/itable',
+      name: '自定义函数应用',
+      component: resolve => {
+        require(['./views/viewone/components/itable.vue'], resolve)
+      }  
+    },
   ]
 })
